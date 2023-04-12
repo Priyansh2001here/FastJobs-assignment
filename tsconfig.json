@@ -7,7 +7,7 @@
     "esModuleInterop": true,
     "strict": true,
     "experimentalDecorators": true,
-//    "watch": true
+    "watch": true
   },
   "include": [
     "src/*.ts"
