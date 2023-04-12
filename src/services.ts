@@ -1,6 +1,6 @@
 import {OAuth2Client} from "google-auth-library";
 import {clientId, clientSecret, redirectUri} from "./index";
-import {calendar_v3, google} from "googleapis";
+import {google} from "googleapis";
 import {availableSlotsMap, meetingsMap, Tokens, tokensMap} from "./dbService";
 
 export const GOOGLE_AUTH_URL = new OAuth2Client(clientId, clientSecret, redirectUri).generateAuthUrl({
